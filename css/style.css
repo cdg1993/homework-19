@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+header{
+    width: 100vw;
+    height: 100px;
+    border-bottom: solid 1px rgba(16, 16, 16, 0.1);
+    font-family: 'Roboto';
+}
+
+header .inner{
+    width: 1300px; 
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+header .logo{
+    display: table;
+    height: 100%;
+    float: left;
+}
+
+header .logo div{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header .logo img{
+    height: 50px;
+    margin-top: 5px; 
+}
+
+header nav{
+    float: right;
+    height: 100%;
+}
+
+header nav li{
+    display: table;
+    height: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+header nav li:last-of-type{
+    margin-right: 0;
+}
+
+header nav span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header nav a{
+    color: #424B54;
+}
+
+header nav .button{
+    background-color: #1ab26b; /* This HEX is the color of the button */
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+header nav .button:hover{
+    filter: brightness(1.05);
+}
+
+
+h1 {
+    text-align: center;
+    text-transform: uppercase; 
+    color: #424B54;
+    font-size: 32px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    
+}
+
+
+h2 {
+    text-align: center;
+    text-transform: uppercase; 
+    color: #93A8AC;
+    font-size: 64px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}*
+
+/* Centered Image Code */
+
+.allicons {
+    float: right;
+    padding-right: 40px;
+}
+
+
+
+/* Centered paragraph Code */
+
+
+.paragraph
+div {
+padding-top: 100px;
+padding-left: 550px;
+padding-right: 550px;
+padding-bottom: 50px;
+font: 20px Roboto, Regular; 
+color: #505050;
+text-align: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+/* Centered paragraph Code */
+
+
+ {
+    padding-top: 100px;
+padding-left: 550px;
+padding-right: 550px;
+padding-bottom: 50px;
+}
+
+footer [class ^= 'footer-'] {
+    width: 33.3333%;
+    display: inline-block;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Roboto, Regular;
+    background-color: #93A8AC;
+}
+
+footer {
+    line-height: 1.8;
+}
+
+footer .footer-left {
+    float: left;
+    background-color: #93A8AC;
+}
+
+
+footer .footer-right {
+    float: right;
+    background-color: #93A8AC;
+    text-align: center
+}
+
+.heroimage {
+    background-color: transparent;
+}
